@@ -9,7 +9,7 @@ def get_binding_of(lens: str, options: dict) -> str | None:
     global lens_bindings
 
     if len(lens_bindings) == 0:
-        with open(os.path.join(os.path.dirname(__file__), 'themes', options['theme'], 'lens_bindings.csv'), 'r') as f:
+        with open(os.path.join(os.path.dirname(__file__), '..', 'themes', options['theme'], 'lens_bindings.csv'), 'r') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 lens_bindings[row['lens_binding']] = row['lens_real']
