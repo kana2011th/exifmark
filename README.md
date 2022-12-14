@@ -1,10 +1,12 @@
 # EXIFMark
 
-This project will provide scripts to watermark images and scrub EXIF data from them.
+Adobe Lightroom's built-in watermarking tools not good enough. Why I don't make it yourself?
 
-# installation
+## installation
 
 ## install from source
+
+## usage
 
 ```
 $ exifstamp -h
